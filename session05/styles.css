@@ -1,0 +1,152 @@
+/* BODY & BACKGROUND */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #2c2c2c;
+    background: url("images/pattern.jpg") repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADINGS */
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #4B0082;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Papyrus', fantasy, sans-serif;
+    color: #8B0000;
+    text-align: center;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    margin: 0 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #4B0082;
+    background-color: rgba(200, 200, 255, 0.3);
+}
+
+/* MAIN CONTENT */
+main {
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+}
+
+/* PARAGRAPH STYLES */
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* HIGHLIGHTS */
+#special1 {
+    color: #006400;
+    font-weight: bold;
+}
+
+#special2 {
+    color: #8B4513;
+    font-style: italic;
+}
+
+span.highlight1 {
+    background-color: #FFD700;
+}
+
+span.highlight2 {
+    background-color: #ADFF2F;
+}
+
+/* IMAGES */
+img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.featured-img {
+    max-width: 400px;
+    margin: 15px auto;
+    display: block;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+    color: #2c2c2c;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* TABLES */
+table {
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #555555;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #D8BFD8;
+    color: #000;
+}
+
+td {
+    background-color: #F5F5F5;
+}
+
+/* DESCENDANT SELECTORS */
+td p, td a {
+    font-size: 14px;
+    color: #333333;
+}
+
+/* LINK HOVER */
+a:hover {
+    color: #FF4500;
+    text-decoration: underline;
+}
+
+
+.box-highlight {
+    background-color: #e6ffe6;
+    border: 2px dashed #228B22;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 8px;
+}
